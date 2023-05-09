@@ -73,10 +73,6 @@ img {
   column-gap: 76px;
 }
 
-.navigation-header > .logo {
-  margin-right: 76px;
-}
-
 .navigation {
   display: flex;
   gap: 40px;
