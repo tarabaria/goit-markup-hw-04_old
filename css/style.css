@@ -64,7 +64,7 @@ img {
   display: flex;
   align-self: center;
   padding-top: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .navigation-header {
@@ -148,6 +148,10 @@ img {
 }
 .page-main > .hero {
   background-color: var(--second-color);
+  background-image: url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .hero {
   padding: 188px 0;
