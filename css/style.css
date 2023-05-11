@@ -302,6 +302,9 @@ img {
   background-color: var(--light-color);
 }
 
+.social-list-icon {
+  border-color: var(--main-blue-color);
+}
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
