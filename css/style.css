@@ -235,6 +235,7 @@ img {
 .team-container {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -264,6 +265,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-photo {
@@ -300,15 +302,18 @@ img {
 .feature-icon {
   display: flex;
   background-color: var(--light-color);
+  justify-content: center;
+  align-items: center;
 }
 
-.social-list-icon {
+.social-network-list-icon {
   fill: var(--white-color);
-  background-color: var(--main-blue-color);
 }
 
-.social-list {
+.social-network-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .customers-tittle {
   font-weight: 700;
@@ -317,6 +322,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  text-transform: capitalize;
 }
 
 .customers {
@@ -329,12 +335,20 @@ img {
   gap: 24px;
 }
 
-.social-list {
-  gap: 24px;
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
 }
 
-.customers-list-item {
+.social-network-list-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: var(--main-blue-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
+
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
@@ -403,12 +417,14 @@ img {
   gap: 24px;
   justify-content: center;
 }
+
 /* =======MAIN PORTFOLIO======= */
 
 /* =======FOOTER======= */
 .page-footer {
   background-color: var(--second-color);
   padding: 100px 0;
+  display: flex;
 }
 .footer-text {
   font-size: 16px;
@@ -424,4 +440,5 @@ img {
   margin-bottom: 16px;
   display: inline-block;
 }
+
 /* =======FOOTER======= */
