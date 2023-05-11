@@ -148,10 +148,13 @@ img {
 }
 .page-main > .hero {
   background-color: var(--second-color);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg) ;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .hero {
   padding: 188px 0;
@@ -295,8 +298,9 @@ img {
 }
 
 .feature-icon {
+  display: flex;
   background-color: var(--light-color);
-background-position: 50% 50%;
+  justify-content: center;
 }
 
 /* =======MAIN STUDIO======= */
