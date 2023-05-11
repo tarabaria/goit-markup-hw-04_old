@@ -294,6 +294,11 @@ img {
   padding: 32px 16px;
 }
 
+.feature-icon {
+  background-color: var(--light-color);
+background-position: 50% 50%;
+}
+
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
