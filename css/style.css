@@ -306,6 +306,11 @@ img {
   fill: var(--white-color);
   background-color: var(--main-blue-color);
 }
+
+.social-list {
+  display: flex;
+}
+
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
