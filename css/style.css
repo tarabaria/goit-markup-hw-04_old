@@ -283,7 +283,6 @@ img {
   padding: 120px 0;
 }
 .features {
-  padding: 120px 0;
   display: flex;
 }
 
@@ -352,10 +351,7 @@ img {
 }
 .icon-list {
   display: flex;
-}
-
-.icon {
-  padding-bottom: 120px;
+  gap: 24px;
 }
 
 /* =======MAIN STUDIO======= */
