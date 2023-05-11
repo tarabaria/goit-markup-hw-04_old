@@ -303,7 +303,8 @@ img {
 }
 
 .social-list-icon {
-  border-color: var(--main-blue-color);
+  fill: var(--white-color);
+  background-color: var(--main-blue-color);
 }
 /* =======MAIN STUDIO======= */
 
