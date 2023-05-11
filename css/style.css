@@ -300,10 +300,6 @@ img {
 .feature-icon {
   display: flex;
   background-color: var(--light-color);
-  justify-content: center;
-}
-
-.feature-icon < use {
 }
 
 /* =======MAIN STUDIO======= */
