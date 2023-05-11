@@ -354,6 +354,10 @@ img {
   display: flex;
 }
 
+.icon {
+  padding-bottom: 120px;
+}
+
 /* =======MAIN STUDIO======= */
 
 /* =======MAIN PORTFOLIO======= */
