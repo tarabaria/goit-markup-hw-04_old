@@ -290,7 +290,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.features-list-text {
+.features-list-box {
   width: calc((100% - 72px) / 4);
 }
 .team-info {
@@ -327,6 +327,13 @@ img {
 .customers-list {
   display: flex;
   gap: 24px;
+}
+
+.social-list {
+  gap: 24px;
+}
+
+.customers-list-item {
 }
 /* =======MAIN STUDIO======= */
 
