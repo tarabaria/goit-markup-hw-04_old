@@ -436,9 +436,22 @@ img {
 .page-footer {
   background-color: var(--second-color);
 }
-.page-footer > .container > .logo {
+.logo-container-footer > .logo {
   margin-bottom: 16px;
   display: inline-block;
+}
+
+.page-footer > .container {
+  display: flex;
+}
+
+.social-network-title {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 /* =======FOOTER======= */
